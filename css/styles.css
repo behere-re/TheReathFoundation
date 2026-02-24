@@ -399,10 +399,9 @@ button {
     radial-gradient(ellipse at 60% 50%, rgba(0,0,0,0) 30%, rgba(0,0,0,0.6) 100%),
     /* Main gradient – forest to dark */
     linear-gradient(160deg, rgba(0,30,20,0.72) 0%, rgba(0,0,0,0.55) 100%),
-    /* Fallback nature color */
-    linear-gradient(to bottom right, #0a3320, #1a4a30);
-
-  /* In production, replace with: background-image: url('images/hero.jpg'); background-size: cover; background-position: center; */
+    url('../images/hero.jpg');
+  background-size: cover;
+  background-position: center;
 }
 
 /* Decorative foliage blobs for no-image fallback */
